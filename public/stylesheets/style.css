@@ -1,0 +1,45 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h3 {
+  color: #ffffff;
+}
+
+.right {
+  float: right;
+}
+
+.panel-title {
+  display: inline;
+}
+
+@media only screen and (max-width: 414px) {
+  .panel .home {
+    height: 60px;
+  }
+
+  .panel .panel-body p a {
+    float: right!important;
+  }
+}
+
+#back {
+  padding: 0px 10px;
+  margin-top: 21px;
+  margin-bottom: 10.5px;
+}
+
+h1#suggestion {
+  overflow: hidden;
+  display: inline-block;
+}
+
+#comments a {
+  font-style: italic;
+}

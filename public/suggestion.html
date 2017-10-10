@@ -1,0 +1,14 @@
+<div>
+<h1 id="suggestion">{{post.title}}</h1>
+<button id="back" back class="btn btn-danger right">Back</button>
+</div>
+<div class="well" ng-repeat = "comment in post.comments | orderBy:'-upvotes'">
+    {{comment.body}}<span class="glyphicon glyphicon-plus-sign right" ng-click="upVote(comment)"></span><span class="right">Upvotes: {{comment.upvotes}}&nbsp</span>
+</div>
+<form ng-submit="addComment()" style="margin-top: 50px">
+    <h3>Submit your comment</h3>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Great comment here" ng-model="body">
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
