@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"title": {
+			"name": "title",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "title",
+			"order": 0
+		},
+		"upvotes": {
+			"name": "upvotes",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "upvotes",
+			"order": 1
+		},
+		"comments": {
+			"name": "comments",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "comments",
+			"order": 2
+		}
+	}
+}
